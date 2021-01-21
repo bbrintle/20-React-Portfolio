@@ -1,0 +1,16 @@
+.infocard {
+    margin-left: 12.5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(228, 212, 192);
+    box-shadow: 2.5px 3px rgb(133, 132, 106);
+}
+
+.aboutMeTitle {
+    width: 100%;
+    justify-self: center;
+    height: 85px;
+    font-size: 42px;
+}

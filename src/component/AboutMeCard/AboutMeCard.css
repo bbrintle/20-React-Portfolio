@@ -1,0 +1,42 @@
+.card {
+    margin-left: 12.5%;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+    background-color: rgb(228, 212, 192);
+    box-shadow: 2.5px 3px rgb(133, 132, 106);
+}
+
+.aboutMeTitle {
+    width: 100%;
+    justify-self: center;
+    height: 85px;
+    font-size: 42px;
+}
+
+.firstRow {
+    display: flex;
+}
+
+.mypic {
+    padding: 20px;
+    height: 200px;
+    width: 20%;
+    min-width: 200px;
+    border: 0.5px solid black;
+}
+
+.firstParagraph {
+    padding: 20px;
+    height: fit-content;
+    min-height: 200px;
+    width: 80%;
+    text-align: left;
+}
+
+.secondParagraph {
+    padding: 20px;
+    height: fit-content;
+    text-align: left;
+    min-height: 200px;
+}
