@@ -2,7 +2,7 @@ import React from 'react'
 import "./MajorProjectCard.css"
 import project1Pic from "./project.png"
 import project2Pic from "./project2.png"
-// import project3Pic from "./project3.png"
+import project3Pic from "./Chitter Chatter.png"
 
 function MajorProjectCard() {
     return (
@@ -11,12 +11,12 @@ function MajorProjectCard() {
             <div className='majorTitle'>Major Projects</div>
             <div className="projectCol">  
 
-                {/* <div>
+                <div>
                     <a href="#"><img src={project3Pic} alt=''/></a>
                 </div>
                 <div className="spacer">
                     <a href="https://github.com/bbrintle/community-chat-app">Chitter Chatter GitHub Repository</a>
-                </div> */}
+                </div>
 
                 <div>
                     <a href="https://project-wildlife-observer.herokuapp.com/"><img src={project2Pic} alt=''/></a>
