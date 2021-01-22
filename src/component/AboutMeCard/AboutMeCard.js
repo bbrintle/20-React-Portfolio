@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutMeCard.css'
+import mypic from './BlakeSuit.png'
 
 function AboutMeCard() {
     return (
@@ -9,9 +10,8 @@ function AboutMeCard() {
 
                 <div className="firstRow">
 
-                    <div className="mypic">
-                        <img src="./BlakeSuit.png" alt='mypics'></img>
-                    </div>
+                    <img src={mypic} alt='mypics' className="mypic"></img>
+
                     
                     <div className='firstParagraph'>
                         I am a Course Content Coordinator at Loma Linda Universitey School of Dentistry. I was born and raised here in Southern California.

@@ -11,7 +11,10 @@
     width: 100%;
     justify-self: center;
     height: 85px;
-    font-size: 42px;
+    font-size: 65px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 .firstRow {
@@ -19,24 +22,59 @@
 }
 
 .mypic {
-    padding: 20px;
-    height: 200px;
+    padding: 0px 20px 20px 40px;
+    max-height: 200px;
     width: 20%;
-    min-width: 200px;
-    border: 0.5px solid black;
+    max-width: 200px;
 }
 
 .firstParagraph {
-    padding: 20px;
+    padding: 0px 40px 20px 20px;
     height: fit-content;
     min-height: 200px;
     width: 80%;
     text-align: left;
+    font-size: 26px;
 }
 
 .secondParagraph {
-    padding: 20px;
+    padding: 0px 40px 50px 40px;
     height: fit-content;
     text-align: left;
     min-height: 200px;
+    font-size: 26px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .aboutMeTitle {
+        font-size: 20px;
+    }
+
+    .firstRow {
+        display: inline-block;
+    }
+
+    .firstParagraph {
+        padding: 20px 20px 0px 20px;
+        height: fit-content;
+        min-height: 200px;
+        text-align: left;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .secondParagraph {
+        padding: 0px 20px 50px 20px;
+        height: fit-content;
+        text-align: left;
+        min-height: 200px;
+        font-size: 16px;
+    }
+
+    .mypic {
+        width: 100%;
+        padding: 0;
+    }
+
+  }

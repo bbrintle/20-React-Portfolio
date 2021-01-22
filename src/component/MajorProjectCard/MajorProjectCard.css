@@ -14,3 +14,23 @@
     height: 85px;
     font-size: 42px;
 }
+
+.projectCol > div > a > img {
+    max-width: 1000px;
+    width: 98%;
+    height: auto;
+}
+
+.spacer{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .majorTitle {
+        width: 100%;
+        justify-self: center;
+        height: 85px;
+        font-size: 38px;
+    }
+  }

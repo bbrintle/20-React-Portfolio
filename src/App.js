@@ -1,21 +1,24 @@
 import './App.css';
 import Nav from './component/Nav/Nav'
 import AboutMeCard from "./component/AboutMeCard/AboutMeCard"
-import Wrapper from "./component/Wrapper/Wrapper"
+// import Wrapper from "./component/Wrapper/Wrapper"
 import ContactInfoCard from './component/ContactInfoCard/ContactInfoCard';
 import Footer from './component/Footer/Footer';
 import MajorProjectCard from './component/MajorProjectCard/MajorProjectCard'
 import MiniProjectCard from "./component/MiniProjectCard/MiniProjectCard"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 
 function App() {
   return (
 
     <Router>
-      <Nav />
 
+      <Nav />
+    
       <Switch>
-        {/* The roomId will be given and a chat will open based on the ID of the rooms ID in firebase */}
+
+        <Route exact path="/" render={() => {return <Redirect to="/aboutme" />}} />
+
         <Route path="/aboutme">
           <AboutMeCard /> 
           <ContactInfoCard /> 
@@ -27,9 +30,8 @@ function App() {
         </Route>
 
       </Switch>
-      
-      <Footer />
 
+      <Footer />
 
     </Router>
     
