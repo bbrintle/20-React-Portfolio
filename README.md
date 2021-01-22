@@ -23,7 +23,7 @@ Simply select the link to flip back and forth between the aboutme page and the p
 
 <br>
 <h3>React Portfolio</h3>
-<img src="./public/Images/MainPage.PNG">
+<img src="./public/Images/AboutMePage.PNG">
 <br>
 <img src="./public/Images/PortfolioPage.PNG">
 <br>
