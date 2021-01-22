@@ -35,6 +35,6 @@ Please visit my GitHub to view all of my work:
 https://www.github.com/bbrintle 
 
 Check out the site:
-https://blakes-employee-directory.herokuapp.com/
+https://blake-brintle-portfolio.herokuapp.com/
 
 Contact me at: bbrintle@gmail.com
