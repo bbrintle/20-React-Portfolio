@@ -12,7 +12,7 @@ function MajorProjectCard() {
             <div className="projectCol">  
 
                 <div>
-                    <a href="#"><img src={project3Pic} alt=''/></a>
+                    <a href="https://chitter-chatter-chatapp.herokuapp.com/"><img src={project3Pic} alt=''/></a>
                 </div>
                 <div className="spacer">
                     <a href="https://github.com/bbrintle/community-chat-app">Chitter Chatter GitHub Repository</a>
